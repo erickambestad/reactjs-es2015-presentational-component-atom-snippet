@@ -1,22 +1,17 @@
 '.source.js':
-  'ReactJS Component Template':
-    'prefix': 'react-class-component-template'
+  'ReactJS Presentational Component Template':
+    'prefix': 'react-presentational-component-template'
     'body': """
       "use strict";
 
       import React from "react";
 
-      class $1 extends React.Component {
-
-      	constructor(props) {
-      		super(props);
-      	}
-
-      	render() {
-      		return(
-      			<div></div>
-      		);
-      	}
+      const $1 = ({
+        // props list
+      }) => {
+        return(
+          <div></div>
+        );
       }
 
       export default $1;
